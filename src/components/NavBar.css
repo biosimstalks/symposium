@@ -1,0 +1,23 @@
+.NavBar-container {
+  display: flex;
+}
+
+.NavBar-link {
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  padding: var(--xs) var(--s);
+  border-radius: var(--xs);
+  transition: background-color 0.1s ease;
+  margin: 0 var(--xs);
+}
+
+.NavBar-link:hover {
+  /* text-decoration: underline; */
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+nav a.active {
+  background-color: rgba(255, 255, 255, 0.4);
+}

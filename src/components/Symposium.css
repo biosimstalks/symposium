@@ -1,0 +1,90 @@
+.Symposium-event {
+  max-width: 1600px;
+  width: 100%;
+  margin: auto;
+}
+
+/* information */
+.Symposium-event-info {
+  display: flex;
+  gap: var(--xl);
+}
+
+.Symposium-event-info-img,
+.Symposium-event-info-text {
+  flex: 1;
+  /* flex-grow: 1;
+  flex-basis: 0; */
+}
+
+.Symposium-event-info-img-content {
+  width: 100%;
+  /* max-width: 720px; */
+}
+
+.Symposium-event-info-text-content {
+  font-size: 20px;
+}
+.Symposium-event-info-text-content,
+.Symposium-event-info-text-title {
+  margin: var(--s) 0;
+}
+
+.Symposium-event-info-text-hr {
+  height: 1px;
+  border: none;
+  background-color: rgb(150, 150, 150);
+}
+
+/* main content */
+.Symposium-event-main {
+  width: 100%;
+  display: flex;
+  margin: var(--xl) auto 0;
+  gap: var(--xl);
+}
+
+.Symposium-event-main-nav {
+  /* position: sticky; */
+  background-color: var(--background-color);
+  color: #e2e2e2;
+  width: 220px;
+  font-size: calc(var(--m));
+  font-weight: 600;
+  padding: var(--m) 0;
+}
+
+.Symposium-event-main-nav-title {
+  /* font-size: var(--l); */
+  padding: 0 var(--l);
+  margin: 10px 0;
+  line-height: 40px;
+}
+
+.Symposium-event-main-content {
+  flex: 1;
+  /* width: 100px; */
+}
+
+.Symposium-event-main-module-title {
+  background-color: var(--background-color);
+  font-size: 20px;
+  width: 100%;
+  padding: var(--m);
+  color: #fefefe;
+  font-weight: 700;
+}
+
+.Symposium-event-main-module-content {
+  /* background-color: var(--background-color); */
+  font-size: var(--m);
+  width: 100%;
+  padding: var(--m);
+  /* color: #fefefe; */
+  /* font-weight: 700; */
+}
+
+.Symposium-event-main-p {
+  margin: 0;
+  line-height: 2;
+}

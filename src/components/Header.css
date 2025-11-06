@@ -1,0 +1,19 @@
+.Header-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: var(--header-height);
+  padding: 0 var(--xl);
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--background-color);
+  align-items: center;
+  width: 100%;
+  color: white;
+  box-shadow: 0 0 var(--xs) rgba(0, 0, 0, 0.3);
+}
+
+.Header-title {
+  margin: auto 0;
+}
