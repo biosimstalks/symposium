@@ -84,7 +84,37 @@
   /* font-weight: 700; */
 }
 
+.Symposium-event-main-speaker,
 .Symposium-event-main-p {
   margin: 0;
   line-height: 2;
+}
+
+.Symposium-event-main-speaker {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+.Symposium-event-table {
+  width: 100%;
+}
+
+.table-head,
+.table-tr1,
+.table-tr2 {
+  padding: 0 10px;
+  line-height: 2;
+}
+
+.table-head {
+  background-color: #8eaadb;
+  font-weight: 700;
+}
+
+.table-tr1 {
+  background-color: #ededed;
+}
+
+.table-tr2 {
+  background-color: #ffffff;
 }
