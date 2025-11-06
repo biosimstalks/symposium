@@ -7,7 +7,7 @@ const Symposium = () => {
         <div className="Symposium-event-info-img">
           <img
             className="Symposium-event-info-img-content"
-            src="./public/banner.png"
+            src="/banner.png"
             alt="Do we need an image?"
           />
         </div>
