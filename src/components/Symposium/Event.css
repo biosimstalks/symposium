@@ -1,0 +1,31 @@
+/* information */
+.Event-info {
+  display: flex;
+  gap: var(--xl);
+}
+
+.Event-img,
+.Event-text {
+  flex: 1;
+  /* flex-grow: 1;
+  flex-basis: 0; */
+}
+
+.Event-content {
+  width: 100%;
+  /* max-width: 720px; */
+}
+
+.Event-text-content {
+  font-size: 20px;
+}
+.Event-text-content,
+.Event-text-title {
+  margin: var(--s) 0;
+}
+
+.Event-text-hr {
+  height: 1px;
+  border: none;
+  background-color: rgb(150, 150, 150);
+}

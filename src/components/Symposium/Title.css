@@ -1,0 +1,6 @@
+.Title {
+  /* font-size: var(--l); */
+  padding: 0 var(--l);
+  margin: 16px 0;
+  line-height: 40px;
+}

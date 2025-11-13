@@ -1,0 +1,24 @@
+.Program-table {
+  width: 100%;
+  font-size: 18px;
+  line-height: 2;
+}
+.Program-head,
+.Program-tr1,
+.Program-tr2 {
+  padding: 0 10px;
+  line-height: 2;
+}
+
+.Program-head {
+  background-color: #8eaadb;
+  font-weight: 700;
+}
+
+.Program-tr1 {
+  background-color: #ededed;
+}
+
+.Program-tr2 {
+  background-color: #ffffff;
+}
