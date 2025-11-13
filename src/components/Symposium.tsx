@@ -16,8 +16,8 @@ const Symposium = () => {
         <div className="Symposium-event-info-text">
           <section>
             <h2 className="Symposium-event-info-text-title">
-              BioSim Symposium: Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit
+              BioSim Symposium: Inspiring the Next Generation in Modeling and
+              Simulations
             </h2>
             <p className="Symposium-event-info-text-content">BioSim</p>
           </section>
