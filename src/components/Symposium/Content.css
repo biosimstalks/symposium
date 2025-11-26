@@ -18,3 +18,11 @@
   line-height: 2;
   text-align: center;
 }
+
+.Content-bold {
+  font-weight: bold;
+}
+
+.Content-large {
+  font-size: 20px;
+}
