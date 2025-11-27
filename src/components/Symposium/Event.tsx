@@ -14,8 +14,7 @@ const Event = () => {
       <div className="Event-text">
         <section>
           <h2 className="Event-text-title">
-            BioSim Symposium: Inspiring the Next Generation in Modeling and
-            Simulations
+            BioSim: Inspiring the Next Generation in Modeling and Simulations
           </h2>
           <p className="Event-text-content">BioSim</p>
         </section>
