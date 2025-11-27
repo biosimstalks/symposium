@@ -49,6 +49,7 @@ const Speakers = () => {
   ];
 
   const listSpeaker = () => {
+    speaker.sort((a, b) => a.name.localeCompare(b.name));
     return speaker.map((item, index) => (
       <React.Fragment key={index}>
         <p className="Content-p">
