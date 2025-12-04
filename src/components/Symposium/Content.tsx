@@ -40,7 +40,11 @@ const Content = () => {
   const welcomeMessage = <></>;
   const confirmedInvitedSpeakers = <Speakers />;
   const program = <Program />;
-  const registration = <></>;
+  const registration = (
+    <>
+      <p className="Content-p2">Coming soon...</p>
+    </>
+  );
   const abstractForPosters = <></>;
   const access = (
     <>
