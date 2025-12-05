@@ -22,7 +22,7 @@ const Registration = () => {
         Please do not hesitate to email us (
         <a href="mailto:sandhyatiwari@protein.osaka-u.ac.jp">
           sandhyatiwari@protein.osaka-u.ac.jp
-        </a>
+        </a>{" "}
         or{" "}
         <a href="mailto:shinobu.ai.prime@osaka-u.ac.jp">
           shinobu.ai.prime@osaka-u.ac.jp
