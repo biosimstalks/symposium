@@ -1,6 +1,6 @@
 // import NavBar from "./NavBar";
 import "./Header.css";
-const base = import.meta.env.BASE_URL;
+import { base } from "../utility";
 
 const Header = () => {
   return (

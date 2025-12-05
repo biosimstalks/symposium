@@ -1,7 +1,7 @@
 // import { useState, useEffect } from "react";
+import { base } from "../../utility";
 
 import "./ContentTitle.css";
-const base = import.meta.env.BASE_URL;
 type Props = {
   children: string;
   setHide: React.Dispatch<React.SetStateAction<boolean>>;
