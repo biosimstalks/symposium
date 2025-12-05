@@ -13,7 +13,7 @@ function App() {
         <Symposium />
       </div>
       <footer>
-        <div>Copyright © 2025 All Rights Reserved.</div>
+        <div>Copyright © 2025 BIOSIM TALKS. All Rights Reserved.</div>
       </footer>
     </>
   );
