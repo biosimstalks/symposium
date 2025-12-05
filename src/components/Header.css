@@ -25,7 +25,7 @@
   margin: 0 auto;
   height: var(--header-height);
   padding: 0 var(--xl);
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   background-color: var(--background-color);
@@ -33,6 +33,7 @@
   width: 100%;
   color: white;
   box-shadow: 0 0 var(--xs) rgba(0, 0, 0, 0.3);
+  z-index: 1000;
 }
 
 .Header-title {
