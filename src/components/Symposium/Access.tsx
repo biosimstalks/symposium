@@ -16,7 +16,7 @@ const Access = () => {
   };
   return (
     <>
-      <p className="Access-p2">
+      <p className="Access-p">
         <a
           href="https://www.protein.osaka-u.ac.jp/en/access/"
           target="_blank"
@@ -26,7 +26,7 @@ const Access = () => {
         </a>
       </p>
       <div style={{ display: "flex", justifyContent: "center" }}>{map()}</div>
-      <p className="Access-p2">
+      <p className="Access-p">
         Institute for Protein Research, The University of Osaka 3-2 Yamadaoka,
         Suita-shi, Osaka 565-0871, Japan
       </p>
