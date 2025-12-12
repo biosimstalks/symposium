@@ -5,12 +5,18 @@ const Registration = () => {
   return (
     <div className="R-flex">
       <p className="R-p">
-        Please submit an abstract for the poster session when you register.{" "}
+        Registration is free; however, we may collect a small fee for food and
+        refreshments (to be determined).
       </p>
       <p className="R-p">
-        It is not mandatory for participation, but highly encouraged, especially
-        for students and young researchers, for the best symposium experience.
-        Please note that we may limit the number of posters at this event.
+        Please submit an abstract for the poster session when you register.
+        While presenting a poster is not mandatory for participation, but highly
+        encouraged, especially for students and young researchers, for the best
+        symposium experience. Kindly note that we may limit the number of
+        posters at this event.
+      </p>
+      <p className="R-p">
+        We are unable to provide any travel support for this event.
       </p>
       <p className="R-p">
         Registration (with abstract submission) deadline is{" "}
