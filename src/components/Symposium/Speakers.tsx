@@ -46,6 +46,13 @@ const Speakers = () => {
       affiliation:
         "Department of Bioengineering and Therapeutic Sciences, University of San Francisco California, United States",
     },
+    {
+      name: "Ariana Nunes Alves",
+      homepage: "https://anunesalves.owlstown.net/",
+      position: "Team Leader",
+      affiliation:
+        "Biomolecular Systems Group, The Technical University of Berlin, Germany",
+    },
   ];
 
   const listSpeaker = () => {
