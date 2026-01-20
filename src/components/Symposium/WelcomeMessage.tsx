@@ -43,12 +43,19 @@ const WelcomeMessage = () => {
         </a>
         &nbsp;seminar series dedicated to advancing education and training in
         computational methods for biomolecular research, with a special focus on
-        inspiring and supporting young researchers. On March 12, 2026, we will
-        host our first international symposium with invited speakers from Japan
-        and around the world, supported by the Global Frontier Research
-        Initiative at The University of Osaka. We warmly welcome participants
-        from the region—from Master's students to professors—to join this
-        special, intimate inaugural event.
+        inspiring and supporting young researchers. The homepage is{" "}
+        <a
+          href="https://biosimstalks.github.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>
+        . On March 12, 2026, we will host our first international symposium with
+        invited speakers from Japan and around the world, supported by the
+        Global Frontier Research Initiative at The University of Osaka. We
+        warmly welcome participants from the region—from Master's students to
+        professors—to join this special, intimate inaugural event.
       </p>
 
       <p className="WM-p">
