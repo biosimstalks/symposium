@@ -5,15 +5,16 @@ const Registration = () => {
   return (
     <div className="R-flex">
       <p className="R-p">
-        Registration is free; however, we may collect a small fee for food and
-        refreshments (to be determined).
+        Registration is free. We will provide food and refreshments for both
+        lunch and poster reception, so please indicate your food restrictions.
       </p>
       <p className="R-p">
         Please submit an abstract for the poster session when you register.
         While presenting a poster is not mandatory for participation, but highly
         encouraged, especially for students and young researchers, for the best
-        symposium experience. Kindly note that we may limit the number of
-        posters at this event.
+        symposium experience. Poster presenters will have a chance to be awarded
+        the "Best Poster" prize, while all registered participants will be
+        entered into a raffle for a lucky draw!
       </p>
       <p className="R-p">
         We are unable to provide any travel support for this event.
