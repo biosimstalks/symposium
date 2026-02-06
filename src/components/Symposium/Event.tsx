@@ -3,7 +3,7 @@ import { base } from "../../utility";
 
 const Event = () => {
   return (
-    <div className="Event-info">
+    <div className="Event-info row">
       <div className="Event-img">
         <img
           className="Event-content"

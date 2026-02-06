@@ -31,8 +31,10 @@
   background-color: var(--background-color);
   align-items: center;
   width: 100%;
+  min-width: 0;
   color: white;
   box-shadow: 0 0 var(--xs) rgba(0, 0, 0, 0.3);
+  /* box-sizing: border-box; */
   z-index: 1000;
 }
 

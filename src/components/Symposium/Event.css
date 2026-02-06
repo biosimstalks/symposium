@@ -11,6 +11,10 @@
   flex-basis: 0; */
 }
 
+.Event-text {
+  padding: var(--m);
+}
+
 .Event-content {
   width: 100%;
   /* max-width: 720px; */
@@ -28,4 +32,11 @@
   height: 1px;
   border: none;
   background-color: rgb(150, 150, 150);
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; /* 手机竖排 */
+    /* align-items: stretch; */
+  }
 }

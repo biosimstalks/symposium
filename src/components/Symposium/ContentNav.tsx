@@ -12,7 +12,7 @@ const ContentNav = (props: Props) => {
     ));
   };
   return (
-    <nav className="ContentNav" id="ContentNav">
+    <nav className="hide-on-small ContentNav" id="ContentNav">
       {listTitle()}
     </nav>
   );
