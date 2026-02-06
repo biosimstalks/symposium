@@ -80,8 +80,8 @@ const Program = () => {
       <table className="Program-table">
         <tbody>
           <tr className="Program-head">
-            <Td>Time</Td>
-            <Td>Activity</Td>
+            <Td info="time">Time</Td>
+            <Td info="info">Activity</Td>
           </tr>
           {listActivity()}
         </tbody>
