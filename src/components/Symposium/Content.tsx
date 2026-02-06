@@ -7,6 +7,8 @@ import Registration from "./Registration";
 import Program from "./Program";
 import Access from "./Access";
 import Committee from "./Committee";
+import Poster from "./Poster";
+
 import "./Content.css";
 
 const Content = () => {
@@ -15,7 +17,7 @@ const Content = () => {
     "Confirmed Invited Speakers": <Speakers />,
     Program: <Program />,
     Registration: <Registration />,
-    "Abstract for posters": <></>,
+    "Abstract for posters": <Poster />,
     "Organizing Committee": <Committee />,
     Access: <Access />,
   };
