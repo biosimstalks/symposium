@@ -33,7 +33,7 @@ const WelcomeMessage = () => {
         >
           IPR
         </a>
-        ×
+        x{" "}
         <a
           href="https://prime.osaka-u.ac.jp/about/"
           target="_blank"
