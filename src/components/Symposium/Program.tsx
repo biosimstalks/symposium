@@ -11,8 +11,16 @@ const Program = () => {
     { time: 15, activity: "Speakers arrive, registration" },
     { time: 15, activity: "Welcome by organizers" },
     { time: 60, activity: "Ice-breaker, speed networking" },
-    { time: 40, activity: "Ashutosh Srivastava: TBD" },
-    { time: 40, activity: "Ai Niitsu: TBD" },
+    {
+      time: 40,
+      activity:
+        'Ashutosh Srivastava: "Molecular simulations to understand circadian rhythms"',
+    },
+    {
+      time: 40,
+      activity:
+        'Ai Niitsu: "Design principles and structural dynamics of membrane peptides and proteins"',
+    },
     { time: 90, activity: "Lunch break" },
     {
       time: 40,
@@ -24,7 +32,11 @@ const Program = () => {
       activity:
         'Tap Ha-duong: "Molecular simulations of polymer liquid-liquid phase separation: Applications to biomolecular condensates and drug nanocarriers"',
     },
-    { time: 40, activity: "Eiji Yamamoto: TBD" },
+    {
+      time: 40,
+      activity:
+        'Eiji Yamamoto: "Membrane as an Active Field: Multiscale Molecular Dynamics of Biological Membranes"',
+    },
     { time: 15, activity: "Coffee Break" },
     {
       time: 40,
