@@ -48,10 +48,11 @@ const Speakers = () => {
     },
     {
       name: "Ariana Nunes Alves",
-      homepage: "https://anunesalves.owlstown.net/",
-      position: "Team Leader",
+      homepage:
+        "https://www.unisyscat.de/people/current-group-leaders/nunes-alves-ariane",
+      position: "Junior Group Leader",
       affiliation:
-        "Biomolecular Systems Group, The Technical University of Berlin, Germany",
+        "Technische Universität Berlin Institute of Chemistry, Berlin, Germany",
     },
   ];
 
