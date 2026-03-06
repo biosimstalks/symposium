@@ -10,18 +10,6 @@ const Program = () => {
   const activity = [
     { time: 15, activity: "Speakers arrive, registration" },
     { time: 15, activity: "Welcome by organizers" },
-    { time: 60, activity: "Ice-breaker, speed networking" },
-    {
-      time: 40,
-      activity:
-        'Ashutosh Srivastava: "Molecular simulations to understand circadian rhythms"',
-    },
-    {
-      time: 40,
-      activity:
-        'Ai Niitsu: "Design principles and structural dynamics of membrane peptides and proteins"',
-    },
-    { time: 90, activity: "Lunch break" },
     {
       time: 40,
       activity:
@@ -30,14 +18,26 @@ const Program = () => {
     {
       time: 40,
       activity:
+        'Ashutosh Srivastava: "Molecular simulations to understand circadian rhythms"',
+    },
+    { time: 60, activity: "Ice-breaker, speed networking" },
+    { time: 90, activity: "Lunch break" },
+    {
+      time: 40,
+      activity:
         'Tap Ha-duong: "Molecular simulations of polymer liquid-liquid phase separation: Applications to biomolecular condensates and drug nanocarriers"',
     },
     {
       time: 40,
       activity:
-        'Eiji Yamamoto: "Membrane as an Active Field: Multiscale Molecular Dynamics of Biological Membranes"',
+        'Ai Niitsu: "Design principles and structural dynamics of membrane peptides and proteins"',
     },
     { time: 15, activity: "Coffee Break" },
+    {
+      time: 40,
+      activity:
+        'Eiji Yamamoto: "Membrane as an Active Field: Multiscale Molecular Dynamics of Biological Membranes"',
+    },
     {
       time: 40,
       activity:
@@ -48,8 +48,9 @@ const Program = () => {
       activity:
         'Chandra Verma: "Voyages in Molecular Design: Structural Modeling, Simulations, and Therapeutic Innovation"',
     },
-    { time: 30, activity: "Closing comments and discussion" },
-    { time: 105, activity: "Poster session + reception", shift: 20 },
+    { time: 90, activity: "Poster session", shift: 5 },
+    { time: 15, activity: "Poster prize, closing" },
+    { time: 120, activity: "reception", shift: -75 },
   ];
 
   const listActivity = () => {
