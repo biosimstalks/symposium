@@ -4,3 +4,15 @@
   line-height: 2;
   text-align: center;
 }
+
+.Poster-img {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+}
+
+@media (max-width: 768px) {
+  .Poster-img {
+    width: 300px;
+  }
+}
